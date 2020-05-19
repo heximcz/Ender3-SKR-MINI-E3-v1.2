@@ -5,6 +5,6 @@ READ THIS
 - BL TOUCH is < v3.0
 - BL TOUCH is connected to Z-STOP on the board
 
-Latest compiled fw is 2.0.5.3 and 2.0.x-bugfix is (3de1421) from May 17
+Latest compiled fw is 2.0.5.3 and 2.0.x-bugfix is (94063e3) from May 18
 
 If you have any question, go to https://www.facebook.com/groups/250076019468348/
