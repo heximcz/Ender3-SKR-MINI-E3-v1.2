@@ -5,5 +5,5 @@ Configuration for Marlin firmware and Creality Ender 3 (PRO)
 - BL TOUCH is < v3.0
 - BL TOUCH is connected to Z-STOP on the board
 
-*News*
+**News**
 - config and firmware (only bugfix) for ENDER 3 without BLTOUCH
