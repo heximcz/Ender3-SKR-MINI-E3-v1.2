@@ -8,4 +8,4 @@
 ### Info
 Latest compiled fw is 2.0.5.3 and 2.0.x-bugfix is [(e380498)](https://github.com/MarlinFirmware/Marlin/commits/bugfix-2.0.x) from June 1
 
-If you have any question, go to us [facebook group](https://www.facebook.com/groups/250076019468348/).
+Firmware \wo BLTouch have not priority for me. If you need fw \wo BLTouch or another question, contact me over [facebook group](https://www.facebook.com/groups/250076019468348/).
