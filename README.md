@@ -6,6 +6,6 @@
 - BL TOUCH is connected to Z-STOP on the board
 
 ### Info
-Latest compiled fw is 2.0.5.3 and 2.0.x-bugfix is [(e380498)](https://github.com/MarlinFirmware/Marlin/commits/bugfix-2.0.x) from June 1
+Latest compiled fw is 2.0.5.3 and 2.0.x-bugfix is [(9a0b0d8)](https://github.com/MarlinFirmware/Marlin/commits/bugfix-2.0.x) from June 1
 
 Firmware \wo BLTouch have not priority for me. If you need fw \wo BLTouch or another question, contact me over [facebook group](https://www.facebook.com/groups/250076019468348/).
