@@ -698,7 +698,7 @@
  * Enable if your probe or endstops falsely trigger due to noise.
  *
  * - Higher values may affect repeatability or accuracy of some bed probes.
- * - To fix noise install a 100nF ceramic capacitor inline with the switch.
+ * - To fix noise install a 100nF ceramic capacitor in parallel with the switch.
  * - This feature is not required for common micro-switches mounted on PCBs
  *   based on the Makerbot design, which already have the 100nF capacitor.
  *
@@ -778,7 +778,7 @@
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
  */
-#define CLASSIC_JERK
+//#define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
   #define DEFAULT_XJERK 10.0
   #define DEFAULT_YJERK 10.0
@@ -821,13 +821,13 @@
 // @section probes
 
 //
-// See http://marlinfw.org/docs/configuration/probes.html
+// See https://marlinfw.org/docs/configuration/probes.html
 //
 
 /**
- * Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
- *
- * Enable this option for a probe connected to the Z Min endstop pin.
+ * Enable this option for a probe connected to the Z-MIN pin.
+ * The probe replaces the Z-MIN endstop and is used for Z homing.
+ * (Automatically enables USE_PROBE_FOR_Z_HOMING.)
  */
 #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
