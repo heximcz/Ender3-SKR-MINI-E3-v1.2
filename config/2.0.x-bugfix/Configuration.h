@@ -802,7 +802,9 @@
  *   http://blog.kyneticcnc.com/2018/10/computing-junction-deviation-for-marlin.html
  */
 #if DISABLED(CLASSIC_JERK)
-  #define JUNCTION_DEVIATION_MM 0.08  // (mm) Distance from real junction edge
+  #define JUNCTION_DEVIATION_MM 0.08 // (mm) Distance from real junction edge
+  #define JD_HANDLE_SMALL_SEGMENTS   // Use curvature estimation instead of just the junction angle
+                                     // for small segments (< 1mm) with large junction angles (> 135°).
 #endif
 
 /**
@@ -891,6 +893,11 @@
 #define BLTOUCH
 
 /**
+ * Pressure sensor with a BLTouch-like interface
+ */
+//#define CREALITY_TOUCH                                                                                             
+
+/**
  * Touch-MI Probe by hotends.fr
  *
  * This probe is deployed and activated by moving the X-axis to a magnet at the edge of the bed.
@@ -967,7 +974,7 @@
 #define PROBING_MARGIN 30
 
 // X and Y axis travel speed (mm/m) between probes
-#define XY_PROBE_SPEED 5000
+#define XY_PROBE_SPEED 8000
 
 // Feedrate (mm/m) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
