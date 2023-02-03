@@ -6,6 +6,6 @@
 - BL TOUCH is connected to Z-STOP on the board
 
 ### Info
-Latest compiled firmware is version 2.0.9.2 and 2.0.x-bugfix is [(cea097d)](https://github.com/MarlinFirmware/Marlin/commits/bugfix-2.0.x)
+Latest compiled firmware is version 2.1.2
 
 Firmware \wo BLTouch have not priority for me. If you need fw \wo BLTouch or another question, contact me over [facebook group](https://www.facebook.com/groups/250076019468348/).
